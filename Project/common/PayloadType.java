@@ -1,0 +1,7 @@
+package Project.common;
+//// Jenish Patel - jp989 - IT- 114-001 12/14/2023
+public enum PayloadType {
+    CONNECT, DISCONNECT, MESSAGE, CLIENT_ID, RESET_USER_LIST,
+    SYNC_CLIENT, CREATE_ROOM, JOIN_ROOM, GET_ROOMS,
+    READY, BLOCK, UNBLOCK
+}
